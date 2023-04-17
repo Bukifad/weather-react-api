@@ -1,0 +1,72 @@
+.weather {
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  border: 1px solid #e7f0fd;
+  width: 50%;
+  border-radius: 20px;
+  padding: 40px;
+}
+.formControl {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.inputText {
+  width: 40%;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #e7f0fd;
+  border: 1px solid #accbee;
+  padding-left: 2opx;
+}
+.btn {
+  background-color: #accbee;
+  color: white;
+  border: 1px solid #e7f0fd;
+  /* padding: 15px; */
+  width: 20%;
+  border-radius: 15px;
+}
+.city {
+  margin-top: 50px;
+  margin-left: 50px;
+  line-height: 1.5;
+}
+ul {
+  list-style: none;
+  color: white;
+
+  line-height: 1.5;
+}
+
+.container h1 {
+  margin-left: 40px;
+  line-height: 0;
+  color: white;
+
+  font-weight: 700;
+}
+.temp {
+  display: flex;
+}
+.tempNum {
+  font-size: 50px;
+  font-weight: bold;
+}
+span {
+  color: white;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+a {
+  text-decoration: none;
+  color: purple;
+}
