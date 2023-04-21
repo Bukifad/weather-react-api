@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Weather.css";
 import axios from "axios";
 import OverView from "./OverView";
+import WeatherForecast from "./WeatherForecast";
 
 export default function Weather(props) {
   // const [ready, setReady] = useState(false);
@@ -13,6 +14,7 @@ export default function Weather(props) {
   function showTemperature(response) {
     setWeather({
       ready: true,
+      coordinates: response.data.coord,
       city: response.data.name,
       date: new Date(response.data.dt * 1000),
       description: response.data.weather[0].description,
@@ -48,6 +50,7 @@ export default function Weather(props) {
             <button className="btn">search</button>
           </form>
           <OverView data={weather} />
+          <WeatherForecast info={weather} coordinates={weather.coordinates} />
         </div>
       </div>
     );
