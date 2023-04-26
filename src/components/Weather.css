@@ -46,7 +46,7 @@ ul {
 
 .container h1 {
   margin-left: 40px;
-  line-height: 0;
+  /* line-height: 0; */
   color: white;
 
   font-weight: 700;

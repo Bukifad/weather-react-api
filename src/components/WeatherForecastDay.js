@@ -6,7 +6,7 @@ export default function WeatherForeCastDay({ day }) {
     return temperature;
   }
   function minTemp() {
-    let temperature = Math.round(day.temp.max);
+    let temperature = Math.round(day.temp.min);
     return temperature;
   }
 
@@ -21,7 +21,13 @@ export default function WeatherForeCastDay({ day }) {
   return (
     <div className="WeatherForeCastDay">
       <div className="forecast-day">{days()}</div>
-      <img className="img" src={day.weather[0].icon} alt={""} />
+
+      <img
+        className="img"
+        src={`https://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png`}
+        alt={""}
+      />
+
       <div className="forecast-temp">
         <span className="forecast-max">{maxTemp()}°</span>
         <span className="forecast-min"> {minTemp()}° </span>

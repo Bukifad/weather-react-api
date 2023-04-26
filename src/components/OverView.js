@@ -9,7 +9,6 @@ export default function OverView({ data }) {
         <h1>{data.city}</h1>
         <ul>
           <li>
-            {/* {data.date.getDays()} */}
             <WeatherDate date={data?.date} />
           </li>
           <li>{data.description}</li>

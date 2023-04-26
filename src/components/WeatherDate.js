@@ -17,7 +17,8 @@ export default function WeatherDate(props) {
 
   return (
     <div>
-      {day} {hours}:{minutes}
+      {" "}
+      {day} {hours}:{minutes}{" "}
     </div>
   );
 }
