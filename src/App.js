@@ -6,11 +6,10 @@ function App() {
       <Weather defaultCity="lagos" />
       <footer>
         <p>
-          This project was coded by{" "}
+          This project was coded by
           <a href="bukifad@gmail.com">Fadahunsi oluwabukola</a> and is{" "}
-          <a href="https://github.com/Bukifad/weather-react">
-            open-sourced on github
-          </a>
+          open-sourced on
+          <a href="https://github.com/Bukifad/weather-react">github</a>
         </p>
       </footer>
     </div>

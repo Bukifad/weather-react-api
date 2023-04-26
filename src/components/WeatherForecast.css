@@ -12,3 +12,19 @@
 .forecast-day {
   color: white;
 }
+@media (max-width: 800px) {
+  .forecast-min {
+    margin-left: 0px;
+    font-size: 12px;
+    opacity: 0.6;
+  }
+  .forecast-max {
+    font-size: 12px;
+  }
+  .img {
+    max-width: 25px;
+  }
+  .forecast-day {
+    font-size: 14px;
+  }
+}

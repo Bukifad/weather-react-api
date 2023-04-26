@@ -16,7 +16,7 @@ export default function OverView({ data }) {
       </div>
       <div className="temp-row">
         <div className="temp">
-          <img src={data.icon} alt={""} />
+          <img className="icon-img" src={data.icon} alt={""} />
           <WeatherTemperature celsius={data.temperature} />
         </div>
 
