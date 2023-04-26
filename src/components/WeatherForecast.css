@@ -3,9 +3,12 @@
 }
 
 .forecast-min {
-  opacity: 0.6;
+  opacity: 0.5;
   margin-left: 5px;
 }
 .img {
   max-width: 50px;
+}
+.forecast-day {
+  color: white;
 }
