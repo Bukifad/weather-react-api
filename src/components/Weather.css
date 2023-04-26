@@ -68,5 +68,8 @@ span {
 }
 a {
   text-decoration: none;
-  color: purple;
+  color: rgb(250, 125, 146);
+}
+a:hover {
+  color: plum;
 }
